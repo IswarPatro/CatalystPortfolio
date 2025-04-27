@@ -29,7 +29,7 @@ const Footer = () => {
             </ul>
             <h4 className="text-lg font-semibold mb-2 text-start">Email</h4>
             <ul className="space-y-2 text-gray-300 text-start">
-              <li>infoAclikcatalyst.com</li>
+              <li>info@clikcatalyst.com</li>
             </ul>
           </div>
           
