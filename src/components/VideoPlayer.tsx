@@ -45,7 +45,7 @@ const VideoPlayer = ({ products, heading }: any) => {
   };
 
   return (
-    <section className="py-20 min-h-screen overflow-hidden">
+    <section className="py-20 sm:min-h-screen overflow-hidden">
       <div className="w-full mx-auto">
         <h2 className="text-white text-4xl font-bold text-center mb-12 drop-shadow-lg">
           {heading}
@@ -56,10 +56,12 @@ const VideoPlayer = ({ products, heading }: any) => {
           className="flex gap-6 overflow-x-scroll scroll-smooth snap-x snap-mandatory pb-6 scrollbar-hide"
         >
           {products.map((product: any, index: number) => (
-            <motion.div
+            <motion.a
+            href={product.link}
+            target="_blank"
               key={index}
               
-              onClick={() => handleVideoClick(index)}
+              // onClick={() => handleVideoClick(index)}
               className="min-w-[400px] max-w-[90vw] snap-center cursor-pointer transform hover:scale-105 transition-transform duration-300 rounded-2xl overflow-hidden bg-gray-800 bg-opacity-60 backdrop-blur-lg border border-gray-700 shadow-xl"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -76,7 +78,7 @@ const VideoPlayer = ({ products, heading }: any) => {
                 loop
                 playsInline
               />
-            </motion.div>
+            </motion.a>
           ))}
         </motion.div>
       </div>

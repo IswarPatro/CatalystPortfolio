@@ -34,7 +34,7 @@ const BlogSection = ({ products, heading  }: any) => {
   }, [products.length]);
 
   return (
-    <section className="py-20 min-h-screen overflow-hidden">
+    <section className="py-20 sm:min-h-screen overflow-hidden">
       <div className="w-full mx-auto">
         <h2 className="text-white text-4xl font-bold text-center mb-12 drop-shadow-lg">
           {heading}

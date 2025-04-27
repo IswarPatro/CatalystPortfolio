@@ -79,24 +79,24 @@ function App() {
   ];
 
   const Videos = [
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501571/1_rj99it.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501571/1_rj99it.mp4", video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501571/1_rj99it.mp4" },
     // { video: Vid2 },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501617/3_fgm9uy.mov" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501652/4_fwn45o.mov" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501566/5_hhsmja.mp4" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501661/6_zdl1rb.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501617/3_fgm9uy.mov",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501617/3_fgm9uy.mov" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501652/4_fwn45o.mov",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755738/Vid4_zf1wff.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501566/5_hhsmja.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755706/Vid5_ab8o9b.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501661/6_zdl1rb.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755711/Vid6_uasjii.mp4"},
     // { video: Vid7 },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501668/8_mv2uyt.mp4" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501661/9_umhbvd.mov" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501668/8_mv2uyt.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755706/Vid8_nustz8.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501661/9_umhbvd.mov",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755705/Vid9_fs8cpf.mp4" },
     // { video: Vid10 },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501668/11_u5ml0u.mp4" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501645/12_qbwqoo.mp4" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501622/13_usdd91.mp4" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501576/14_r7nu5h.mp4" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501584/15_dwbwjw.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501668/11_u5ml0u.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755685/Vid11_facp29.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501645/12_qbwqoo.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755692/Vid12_ukjl7y.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501622/13_usdd91.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755691/Vid13_tbbeto.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501576/14_r7nu5h.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755687/Vid14_vgutar.mp4" },
+    {link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501584/15_dwbwjw.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755679/Vid15_ngyfdk.mp4" },
     // { video: Vid16 },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501635/17_nsftce.mp4" },
-    { video: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501638/18_bffj3i.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501635/17_nsftce.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755678/Vid17_pzd6db.mp4" },
+    { link: "https://res.cloudinary.com/dy9viqy4s/video/upload/v1745501638/18_bffj3i.mp4",video:"https://res.cloudinary.com/dy9viqy4s/video/upload/v1745755696/Vid18_h3eji2.mp4" },
   ];
 
   const CGIVIDEO = [

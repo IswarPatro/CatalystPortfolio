@@ -44,7 +44,7 @@ const Products = ({ products, heading }: any) => {
   };
 
   return (
-    <section className="py-5 min-h-screen overflow-hidden">
+    <section className="py-5 sm:min-h-screen overflow-hidden">
       <div className="w-full mx-auto mb-20">
         <h2 className="text-white text-4xl font-bold text-center mb-12 drop-shadow-lg">
           {heading}
