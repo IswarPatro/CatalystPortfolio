@@ -7,6 +7,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneVolume } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { PiBracketsCurly } from "react-icons/pi";
+import { BsGlobe2 } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -74,7 +75,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300 text-start ">
               <li>info@clikcatalyst.com</li>
             </ul>
-            <h4 className="text-lg font-semibold mb-2 text-start flex"><PiBracketsCurly style={{marginRight: '10px',marginTop:"5px"}} />Website</h4>
+            <h4 className="text-lg font-semibold mb-2 text-start flex"><BsGlobe2 style={{marginRight: '10px',marginTop:"5px"}} />Website</h4>
             <ul className="space-y-2 text-gray-300 text-start">
               <li>http://www.clikcatalyst.com</li>
             </ul>
