@@ -37,7 +37,7 @@ function BackgroundVideo() {
   return (
     <video
       ref={videoRef}
-      src="https://res.cloudinary.com/dy9viqy4s/video/upload/v1745506902/videoplayback_vlqrlt.mp4"
+      src="https://clikcatalyst-assets25.s3.ap-southeast-1.amazonaws.com/BackgroundVideo/videoplayback_vlqrlt.mp4"
       autoPlay
       muted
       loop
